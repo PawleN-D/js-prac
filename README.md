@@ -1,0 +1,2 @@
+# js-prac
+JavaScript practice.
