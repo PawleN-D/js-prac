@@ -5,7 +5,7 @@ let message = "Good Morning";
 
 let name = prompt('Enter Name');
 
-let age = prompt('How old are you?');nu
+let age = prompt('How old are you?');
 
 let number = Number(prompt("Enter a Number"));
 
