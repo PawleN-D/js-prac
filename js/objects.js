@@ -21,7 +21,13 @@ console.log(cake.flavour);
 console.log(cake.layers);
 console.log(cake.occasion);
 console.log(cake.price);
-console.log("He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price);
+// console.log("He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price);
+function describe(cake) {
+    let description = "He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price + ".";
+    return description;
+}
+
+console.log(describe(cake));
 
 // New Values
 console.log(" ")
@@ -34,5 +40,11 @@ console.log(cake.layers);
 console.log(cake.occasion);
 console.log(cake.price);
 
-console.log("He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price);
+// console.log("He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price);
 
+function describe(cake) {
+    let description = "He got a " + cake.layers + " layered " + cake.flavour + " cake for his " + cake.occasion + ". It is said to be priced at " + cake.price + ".";
+    return description;
+}
+
+console.log(describe(cake));
