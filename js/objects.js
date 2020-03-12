@@ -91,6 +91,18 @@ console.log(student.year);
 console.log(student.campus);
 console.log(student.organisation);
 console.log(" ");
-console.log(student.status());
 
 
+
+
+
+
+
+// We are using an array of objetcs to look up the different likes of characters from the harry potter movies.
+
+// Challenge 1
+// - HTML file to receive input and display output
+// - HTML must have input for characters name and dropdown menu for their likes and dislikes
+// - User will type in characters name and select likes dislikes from the dropdown menu
+// - Have a button that once pressed will calculate the correct response and display it in the HTML
+// -Have a lookup function that takes firstname and property(prop) as arguments and function should check if firstname is actually chararcters first name and check if prop is a property of the character, if both are true then return value of property(same with props), if firstname does not correspond return no such value

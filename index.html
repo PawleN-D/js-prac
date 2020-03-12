@@ -1,15 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Practise</title>
-</head>
-<body>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Hello, World!</title>
+    </head>
+    <body>
+        
+        
+        
+            firstName:
+        <input id="firstName"  type="name" value=""><br>
+       <br><br>
+        
+        Likes<select id="likes">
+            
+            <option value="soccer" > soccer</option>
+            <option value="rugby" > rugby</option>
+            <option value="magic"> magic</option>
+            
+        </select>
+           
+            
+            <br>
+        
+        
+      
+        <br>
+       
+            <h1 id="molo">
+        </h1>
+        
+        <br>
     
-    <!-- <script src="./js/main.js"></script>
-    <script src="./js/conditions.js"></script> -->
-    <!-- <script src="./js/loops.js"></script> -->
-    <script src="./js/objects.js"></script>
-</body>
+        <button onclick="subb()">submit </button>
+   
+    
+    
+        <script >
+            
+            var HarryLikes = ["books", "magic", "friends"];
+            
+            
+            var likes = document.getElementById("likes");
+            var val = document.getElementById("val");
+            
+            function subb(){
+            
+               //create a loop here
+      
+            
+            
+            
+            
+            
+            //make if statemets using logical AND or the logical OR to test value
+            
+            if(firstName.value == "harry" && likes.value == "magic" ){
+            document.getElementById("molo").innerHTML = "correct name is Harry Potter <br> and he likes magic";           
+            }
+             else {
+            document.getElementById("molo").innerHTML="Wrong answer Bitch!!";
+            }  
+            
+            }
+            
+            
+        </script>
+    
+    
+    </body>
 </html>
